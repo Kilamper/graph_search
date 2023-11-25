@@ -20,10 +20,12 @@ Starting from a code base that had an algorithm to determine a route
 between nodes using either breadth first or depth first search, we modified the
 existing function "graph_search()" to also determine and
 return the number of generated and expanded nodes in the process. We added 2
-variables. Each time that a node was popped in the algorithm we increase 
+variables. 
+Each time that a node was popped in the algorithm we increase 
 the variable that represents the number of visited nodes, and after each time the 
 function called the method "fringe.extend()" the number of generated nodes would
 be also increased.
+***
 In addition to the given algorithms we implement two other powerful search algorithms, 
 such as Branch and Bound and its alternative with underestimation. In order to implement 
 this algorithms we add two new boolean variables to the "graph_search" method.
