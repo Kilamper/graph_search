@@ -32,6 +32,6 @@ The first variable ("branch") is to identify if the search is being done with
 <p>Branch and Bound or not, in case its value is True, the "new_nodes" FIFOQueue 
 will be sorted by the path cost of the nodes. While the second one is to detect 
 if the Branch and Bound search is with underestimation or not, and if its value is True, 
-the sort will be done by the sum of the path cost and the heuristic result of the nodes.
-We use all modified options and algorithms in the module "run" so you can watch
+the sort will be done by the sum of the path cost and the heuristic result of the nodes.</p>
+<p>We use all modified options and algorithms in the module "run" so you can watch
 the results.</p>
