@@ -25,7 +25,7 @@ Each time that a node was popped in the algorithm we increase
 the variable that represents the number of visited nodes, and after each time the 
 function called the method "fringe.extend()" the number of generated nodes would
 be also increased.
-**
+***
 In addition to the given algorithms we implement two other powerful search algorithms, 
 such as Branch and Bound and its alternative with underestimation. In order to implement 
 this algorithms we add two new boolean variables to the "graph_search" method.
