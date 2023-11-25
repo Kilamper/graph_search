@@ -22,7 +22,9 @@ variables.</p>
 the variable that represents the number of visited nodes, and after each time the 
 function called the method "fringe.extend()" the number of generated nodes would
 be also increased.</p>
-![alt text](https://github.com/Kilamper/practica1/blob/master/assets/images/image1.png)
+
+![image1](https://github.com/Kilamper/practica1/assets/73082382/d78b59f2-a703-4f1d-aa08-32f6f9225c2b)
+
 <p>In addition to the given algorithms we implement two other powerful search algorithms, 
 such as Branch and Bound and its alternative with underestimation. In order to implement 
 this algorithms we add two new boolean variables to the "graph_search" method.</p>
