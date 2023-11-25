@@ -6,16 +6,13 @@ This document provides relevant information about Search Algorithms
 branch&bound_with_subestimation</p>
 
 ## Requirements 
-***
 Previous installation of Python 3.0+
 
 ## Installation and Execution
-***
 Download the compressed folder with the 3 modules.
 Open and execute module named "run".
 
 ## Description
-***
 <p>Starting from a code base that had an algorithm to determine a route
 between nodes using either breadth first or depth first search, we modified the
 existing function "graph_search()" to also determine and
