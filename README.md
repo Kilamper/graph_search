@@ -41,7 +41,7 @@ underestimation or not, and if its value is True, the sort will be done by the s
 cost and the heuristic result of the nodes.</li>
 </ol>
 
-![image2](https://github.com/Kilamper/practica1/assets/73082382/df5d09c5-f1f8-48ff-b6d4-35f487a9fdc2)
+![image2](https://github.com/Kilamper/practica1/assets/73082382/6b8b2369-b35e-440e-a584-0d439fcf6a48)
 
 <p>We also created a new "sort()" method in the FIFOQueue class to sort the fringe depending on
 whether it is Branch and Bound with or without underestimation.</p>
