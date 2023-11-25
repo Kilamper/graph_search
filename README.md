@@ -25,10 +25,13 @@ be also increased.</p>
 <p>In addition to the given algorithms we implement two other powerful search algorithms, 
 such as Branch and Bound and its alternative with underestimation. In order to implement 
 this algorithms we add two new boolean variables to the "graph_search" method.</p>
-<p>The first variable ("branch") is to identify if the search is being done with Branch and 
+<ol>
+  <li>The first variable ("branch") is to identify if the search is being done with Branch and 
 Bound or not, in case its value is True, the "new_nodes" FIFOQueue will be sorted by the path 
-cost of the nodes. While the second one is to detect if the Branch and Bound search is with 
+cost of the nodes.</li>
+  <li>While the second one is to detect if the Branch and Bound search is with 
 underestimation or not, and if its value is True, the sort will be done by the sum of the path 
-cost and the heuristic result of the nodes.</p>
+cost and the heuristic result of the nodes.</li>
+</ol>
 <p>We use all modified options and algorithms in the module "run" so you can watch
 the results.</p>
