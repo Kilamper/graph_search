@@ -33,7 +33,7 @@ such as Branch and Bound and its alternative with underestimation. In order to i
 this algorithms we add two new boolean variables to the "graph_search" method.</p>
 <ol>
   <li>The first variable ("branch") is to identify if the search is being done with Branch and 
-Bound or not, in case its value is True, the "new_nodes" FIFOQueue will be sorted by the path 
+Bound or not, in case its value is True, the "fringe" FIFOQueue will be sorted by the path 
 cost of the nodes.</li>
 
   <li>While the second one is to detect if the Branch and Bound search is with 
