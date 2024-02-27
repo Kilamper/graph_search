@@ -1,4 +1,4 @@
-# practica1
+# graph_search
 This document provides relevant information about Search Algorithms
 
 <p>Contributors: Kilian Armas Pérez and Echeyde Ramos Caballero</p>
